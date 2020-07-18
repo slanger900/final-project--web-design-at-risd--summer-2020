@@ -1,0 +1,16 @@
+.DS_Store
+
+!.gitignore
+!README.md
+!*.html
+
+!audio/*.mp3
+!video/*.mp4
+
+!img/
+!css/
+!js/
+!about/
+!contact/
+!gallery/
+!portfolio/
