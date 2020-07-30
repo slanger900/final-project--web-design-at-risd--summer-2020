@@ -1,0 +1,19 @@
+main {
+  background-image: url("../img/wetlands-lake-perspective.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: auto;
+  height: 80em;
+}
+main div {
+  width: 90%;
+  background-color: #FFF;
+  border: 0.5em solid #000;
+  margin: auto;
+}
+
+p {
+  text-align: center;
+  padding: 1em;
+}

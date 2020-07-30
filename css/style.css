@@ -1,0 +1,94 @@
+body {
+  color: #222;
+  background-image: linear-gradient(#FFF, #CCC);
+  width: 100%;
+  margin: auto;
+  height: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+body > header {
+  width: 100%;
+  height: 6em;
+  background-color: rgba(153, 153, 153, 0.5);
+  color: #FFF;
+  border-bottom: 3px solid black;
+  position: fixed;
+  top: 0;
+}
+body > header > img {
+  width: auto;
+  height: 5em;
+  margin: auto;
+  float: left;
+  padding: 0.5em;
+}
+body > header > nav {
+  float: right;
+  width: 6em;
+  height: 6em;
+}
+body > header > nav:hover {
+  width: 50%;
+}
+body > header > nav:hover > span {
+  color: #000;
+}
+body > header > nav:hover > ul {
+  visibility: visible;
+  opacity: 1;
+}
+body > header > nav > span {
+  float: right;
+  font-size: 3em;
+  padding: 0.5em;
+  text-align: center;
+  color: #FFF;
+}
+body > header > nav a {
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin: auto;
+  line-height: 4em;
+}
+body > header > nav a:hover {
+  color: #222;
+}
+body > header > nav > ul {
+  display: flex;
+  height: 6em;
+  width: auto;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  margin: auto;
+  visibility: hidden;
+  opacity: 0;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 6em;
+  text-align: center;
+  padding: 3.5em 0;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2em;
+  padding: 1em;
+}
+
+p {
+  font-weight: 400;
+}
