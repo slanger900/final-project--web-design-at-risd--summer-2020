@@ -15,6 +15,7 @@ body > header {
   border-bottom: 3px solid black;
   position: fixed;
   top: 0;
+  z-index: 1000;
 }
 body > header > img {
   width: auto;

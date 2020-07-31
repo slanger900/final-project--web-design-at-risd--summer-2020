@@ -1,0 +1,41 @@
+main {
+  width: 100%;
+  height: 47.15em;
+  margin: auto;
+}
+main > section {
+  width: 90%;
+  height: 41.15em;
+  padding-top: 6em;
+  margin: auto;
+  display: flex;
+}
+main > section img {
+  width: auto;
+  height: 100%;
+  margin: auto;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
